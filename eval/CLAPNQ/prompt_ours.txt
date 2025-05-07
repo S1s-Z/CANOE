@@ -1,0 +1,5 @@
+Passages: {}
+
+Refer to the passages above and answer the following question. 
+
+Question: {}

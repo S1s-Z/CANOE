@@ -1,0 +1,13 @@
+Passages: {}
+
+Refer to the passages above and answer the following question.
+
+Question: {}
+
+Please select the correct option according to the question, and output the option letter (e.g. A/B/C/D):
+
+Options: 
+
+{}
+
+Answer:

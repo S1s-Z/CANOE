@@ -1,0 +1,7 @@
+Passages: {}
+
+Refer to the passages above and answer the following question with just a few words. 
+
+Question: {}
+
+Answer:
