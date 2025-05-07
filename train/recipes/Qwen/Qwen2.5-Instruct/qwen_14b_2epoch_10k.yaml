@@ -1,0 +1,48 @@
+# Model arguments
+model_name_or_path: plz set the correct value here
+model_revision: main
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+
+# Data training arguments
+dataset_name: train_data/final_10k.jsonl
+dataset_configs:
+- train
+
+# GRPO trainer config
+bf16: true
+# use_vllm: false
+use_vllm: true
+vllm_device: auto
+vllm_gpu_memory_utilization: 0.15
+do_eval: false
+eval_strategy: 'no'
+gradient_accumulation_steps: 1
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+hub_model_id: plz set the correct value here
+hub_strategy: end
+push_to_hub: false
+learning_rate: 1.0e-06
+log_level: info
+logging_first_step: true
+logging_steps: 5
+logging_strategy: steps
+lr_scheduler_type: cosine
+max_prompt_length: 1024
+max_completion_length: 1024
+max_steps: -1
+# num_generations: 4
+num_generations: 7
+num_train_epochs: 2
+output_dir: plz set the correct value here
+overwrite_output_dir: true
+per_device_eval_batch_size: 2
+per_device_train_batch_size: 1
+do_long_answer: true
+report_to:
+- wandb
+save_strategy: "no"
+seed: 42
+warmup_ratio: 0.1
