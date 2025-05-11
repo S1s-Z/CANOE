@@ -144,8 +144,8 @@ Here is the full list of models we released:
 
 |Model|Link|Description|
 |---|---|---|
-|**CANOE-LLaMA3-8B**| [🤗 HF](https://huggingface.co/ssz1111/CANOE-LLaMA3-8B) | Chat model, training based on LLaMA3-Instruct-8B. |
-|**CANOE-Qwen2.5-7B**| [🤗 HF](https://huggingface.co/ssz1111/CANOE-Qwen2.5-7B) | Chat model, training based on Qwen2.5-Instruct-7B. |
-|**CANOE-Qwen2.5-14B**| [🤗 HF](https://huggingface.co/ssz1111/CANOE-Qwen2.5-14B) | Chat model, training based on Qwen2.5-Instruct-7B. |
+|**CANOE-LLaMA3-8B**| [🤗 HF](https://huggingface.co/ssz1111/CANOE-LLaMA3-8B) | Chat model, based on LLaMA3-Instruct-8B. |
+|**CANOE-Qwen2.5-7B**| [🤗 HF](https://huggingface.co/ssz1111/CANOE-Qwen2.5-7B) | Chat model, based on Qwen2.5-Instruct-7B. |
+|**CANOE-Qwen2.5-14B**| [🤗 HF](https://huggingface.co/ssz1111/CANOE-Qwen2.5-14B) | Chat model, based on Qwen2.5-Instruct-7B. |
 
 
