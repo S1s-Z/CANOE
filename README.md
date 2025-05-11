@@ -11,7 +11,7 @@ Teaching large language models (LLMs) to be faithful in the provided context is 
 
 ## 🎯 Usage
 
-#### 🔎 Setup
+### 🔎 Setup
 
 
 Our code is based on open-r1, please follow the repo to get the right environments according to train/setup.py in our repo and [README.md](https://github.com/huggingface/open-r1) in the open-r1 repo.
