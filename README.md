@@ -34,7 +34,13 @@ You can download and save the processed data through the [Tsinghua Drive/trainin
 
 
 We provide training scripts under `/train`, e.g., llama_8b_10k_2epoch.sh and qwen_7b_10k_2epoch.sh.
+```sh
+sh llama_8b_10k_2epoch.sh.sh
 
+sh qwen_7b_10k_2epoch.sh
+
+sh qwen_14b_10k_2epoch.sh
+```
 
 
 ## 🎲 Evaluation
