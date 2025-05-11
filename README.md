@@ -51,6 +51,14 @@ sh eval.sh
 sh eval_factual.sh
 ```
 
+We also provide the scripts for API-based LLMs.
+
+```sh
+sh eval_api.sh
+
+sh eval_factual_api.sh
+
+
 ### 🔍 CNQ
 
 This is a short-form counterfactual multiple-choice questions task.
