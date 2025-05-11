@@ -1,6 +1,5 @@
 # CANOE
 
-data_link: https://cloud.tsinghua.edu.cn/d/38ed09b657584c01ae29/
 
 The code of our paper "Teaching Language Models to Remain Context-Faithful via Synthetic Tasks and Reinforcement Learning"
 
