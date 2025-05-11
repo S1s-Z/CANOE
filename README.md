@@ -1,7 +1,7 @@
 # CANOE
 
 
-The code of our paper "Teaching Language Models to Remain Context-Faithful via Synthetic Tasks and Reinforcement Learning"
+The code of our paper "Teaching Language Models to Remain Context-Faithful via Synthetic Tasks and Reinforcement Learning".
 
 ## 🛶 Overview
 
@@ -30,7 +30,7 @@ pip install -e .[dev]
 
 You can find the corresponding code in `train`.
 
-You can download and save the processed data through the [Tsinghua Drive](https://cloud.tsinghua.edu.cn/d/38ed09b657584c01ae29/) to train the model. Please put the data into `train/train_data`. 
+You can download and save the processed data through the [Tsinghua Drive/training_data/](https://cloud.tsinghua.edu.cn/d/38ed09b657584c01ae29/) to train the model. Please put the data into `train/train_data`. 
 
 
 We provide training scripts under `/train`, e.g., llama_8b_10k_2epoch.sh and qwen_7b_10k_2epoch.sh.
@@ -39,24 +39,41 @@ We provide training scripts under `/train`, e.g., llama_8b_10k_2epoch.sh and qwe
 
 ## 🎲 Evaluation
 
-You can download and save the processed data through the [Tsinghua Drive](https://cloud.tsinghua.edu.cn/d/38ed09b657584c01ae29/)
+You can download and save the processed data through the [Tsinghua Drive/datasets](https://cloud.tsinghua.edu.cn/d/38ed09b657584c01ae29/). Plz put the correct dataset files in the correct path, e.g., `eval/CNQ/dataset`.
 
 ### 🔍 ConFiQA & FiQA
 
+There are two short-form QA tasks, including both the counterfactual QA and factual QA tasks.
+
+```sh
+sh eval.sh
+
+sh eval_factual.sh
+```
 
 ### 🔍 CNQ
+
+This is a short-form counterfactual multiple-choice questions task.
 
 
 ### 🔍 FaithEval
 
+This is a short-form counterfactual QA task.
+
 
 ### 🔍 FollowRAG
+
+They are short-form open-domain QA tasks for RAG generation.
 
 
 ### 🔍 CLAPNQ
 
+This is a long-form QA task.
+
 
 ### 🔍 XSum & WiKiLarge
+
+They are two long-form tasks, including simplification and summarization.
 
 
 
@@ -66,8 +83,8 @@ Here is the full list of models we released:
 
 |Model|Link|Description|
 |---|---|---|
-|**CANOE-LLaMA3-8B**| [🤗](https://huggingface.co/ssz1111/CANOE-LLaMA3-8B) | Chat model, training based on LLaMA3-Instruct-8B. |
-|**CANOE-Qwen2.5-7B**| [🤗](https://huggingface.co/ssz1111/CANOE-Qwen2.5-7B) | Chat model, training based on Qwen2.5-Instruct-7B. |
-|**CANOE-Qwen2.5-14B**| [🤗](https://huggingface.co/ssz1111/CANOE-Qwen2.5-14B) | Chat model, training based on Qwen2.5-Instruct-7B. |
+|**CANOE-LLaMA3-8B**| [🤗 HF](https://huggingface.co/ssz1111/CANOE-LLaMA3-8B) | Chat model, training based on LLaMA3-Instruct-8B. |
+|**CANOE-Qwen2.5-7B**| [🤗 HF](https://huggingface.co/ssz1111/CANOE-Qwen2.5-7B) | Chat model, training based on Qwen2.5-Instruct-7B. |
+|**CANOE-Qwen2.5-14B**| [🤗 HF](https://huggingface.co/ssz1111/CANOE-Qwen2.5-14B) | Chat model, training based on Qwen2.5-Instruct-7B. |
 
 
