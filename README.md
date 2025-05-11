@@ -14,9 +14,9 @@ Teaching large language models (LLMs) to be faithful in the provided context is 
 #### 🔎 Setup
 
 
-Our code is based on open-r1, please follow the repo to get the right environments according to train/setup.py in our repo and [ReadMe](https://github.com/huggingface/open-r1) in open-r1 repo.
+Our code is based on open-r1, please follow the repo to get the right environments according to train/setup.py in our repo and [README.md](https://github.com/huggingface/open-r1) in the open-r1 repo.
 
-Meanwhile, we rewrite the TRL package, plz install our TRL by, 
+Meanwhile, we rewrite the TRL package, plz install our TRL.
 
 
 ```python
@@ -34,6 +34,7 @@ You can download and save the processed data through the [Tsinghua Drive/trainin
 
 
 We provide training scripts under `/train`, e.g., llama_8b_10k_2epoch.sh and qwen_7b_10k_2epoch.sh.
+
 ```sh
 sh llama_8b_10k_2epoch.sh.sh
 
