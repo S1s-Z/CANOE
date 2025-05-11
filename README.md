@@ -106,7 +106,7 @@ sh eval_api.sh
 
 ### 🔍 CLAPNQ
 
-This is a long-form QA task. Please install [MiniCheck-Flan-T5-Large](https://github.com/Liyan06/MiniCheck) for the correct evaluation. MiniCheck-Flan-T5-Large can be saved in `eval/CLAPNQ/ckpts`
+This is a long-form QA task. Please install [MiniCheck-Flan-T5-Large](https://github.com/Liyan06/MiniCheck) for the correct evaluation. MiniCheck-Flan-T5-Large can be saved in `eval/CLAPNQ/ckpts`.
 
 ```sh
 sh eval.sh
@@ -121,7 +121,7 @@ sh eval_api.sh
 ### 🔍 XSum & WiKiLarge
 
 They are two long-form tasks, including simplification and summarization.
-Please install [MiniCheck-Flan-T5-Large](https://github.com/Liyan06/MiniCheck) for the correct evaluation. MiniCheck-Flan-T5-Large can be saved in `eval/CLAPNQ/ckpts`
+Please install [MiniCheck-Flan-T5-Large](https://github.com/Liyan06/MiniCheck) for the correct evaluation. MiniCheck-Flan-T5-Large can be saved in `eval/XSum_WiKiLarge/ckpts`.
 
 ```sh
 sh eval_sim.sh
