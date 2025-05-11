@@ -57,32 +57,79 @@ We also provide the scripts for API-based LLMs.
 sh eval_api.sh
 
 sh eval_factual_api.sh
-
+```
 
 ### 🔍 CNQ
 
 This is a short-form counterfactual multiple-choice questions task.
 
+```sh
+sh eval.sh
+```
+
+We also provide the scripts for API-based LLMs.
+```sh
+sh eval_api.sh
+```
 
 ### 🔍 FaithEval
 
 This is a short-form counterfactual QA task.
 
+```sh
+sh eval.sh
+```
+
+We also provide the scripts for API-based LLMs.
+```sh
+sh eval_api.sh
+```
 
 ### 🔍 FollowRAG
 
 They are short-form open-domain QA tasks for RAG generation.
 
+```sh
+sh eval.sh
+```
+
+We also provide the scripts for API-based LLMs.
+```sh
+sh eval_api.sh
+```
 
 ### 🔍 CLAPNQ
 
-This is a long-form QA task.
+This is a long-form QA task. Please install [MiniCheck-Flan-T5-Large](https://github.com/Liyan06/MiniCheck) for the correct evaluation. MiniCheck-Flan-T5-Large can be saved in `eval/CLAPNQ/ckpts`
+
+```sh
+sh eval.sh
+```
+
+We also provide the scripts for API-based LLMs.
+```sh
+sh eval_api.sh
+```
 
 
 ### 🔍 XSum & WiKiLarge
 
 They are two long-form tasks, including simplification and summarization.
+Please install [MiniCheck-Flan-T5-Large](https://github.com/Liyan06/MiniCheck) for the correct evaluation. MiniCheck-Flan-T5-Large can be saved in `eval/CLAPNQ/ckpts`
 
+```sh
+sh eval_sim.sh
+
+sh eval_sum.sh
+```
+
+We also provide the scripts for API-based LLMs.
+
+```sh
+sh eval_sim_api.sh
+
+sh eval_sum_api.sh
+```
 
 
 ## 🤖 All available models
