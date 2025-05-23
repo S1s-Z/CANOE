@@ -1,7 +1,7 @@
 # CANOE
 
 
-The code of our paper "Teaching Language Models to Remain Context-Faithful via Synthetic Tasks and Reinforcement Learning".
+The code of our paper "Teaching Large Language Models to Maintain Contextual Faithfulness via Synthetic Tasks and Reinforcement Learning".
 
 ## 🛶 Overview
 
