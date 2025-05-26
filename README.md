@@ -150,3 +150,13 @@ Here is the full list of models we released:
 |**CANOE-Qwen2.5-14B**| [🤗 Link](https://huggingface.co/ssz1111/CANOE-Qwen2.5-14B) | Chat model, based on Qwen2.5-Instruct-14B. |
 
 
+## ✍🏻 Citation
+
+```bibtex
+@article{si2025teaching,
+  title={Teaching Large Language Models to Maintain Contextual Faithfulness via Synthetic Tasks and Reinforcement Learning},
+  author={Si, Shuzheng and Zhao, Haozhe and Gao, Cheng and Bai, Yuzhuo and Wang, Zhitong and Gao, Bofei and Luo, Kangyang and Li, Wenhao and Huang, Yufei and Chen, Gang and others},
+  journal={arXiv preprint arXiv:2505.16483},
+  year={2025}
+}
+```
