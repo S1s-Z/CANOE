@@ -15,7 +15,7 @@ import requests
 def query_claude(full_prompt, llm_model_name='claude-3-7-sonnet-20250219'):
 
     # 替换成你的 OpenAI API 密钥  
-    api_key = 'sk-proj-NVa8Rr8cBTaA2lETfnoRmSQiAHuQu9XYf4yTkGL3OcKNVtWd'  
+    api_key = ' '   
 
     # 设置请求头  
     headers = {  
@@ -54,7 +54,7 @@ def query_claude(full_prompt, llm_model_name='claude-3-7-sonnet-20250219'):
 def query_claude_think(full_prompt, llm_model_name='claude-3-7-sonnet-20250219'):
 
     # 替换成你的 OpenAI API 密钥  
-    api_key = 'sk-proj-NVa8Rr8cBTaA2lETfnoRmSQiAHuQu9XYf4yTkGL3OcKNVtWd'  
+    api_key = ' '   
 
     # 设置请求头  
     headers = {  
@@ -100,7 +100,7 @@ def query_claude_think(full_prompt, llm_model_name='claude-3-7-sonnet-20250219')
 def query_gpt(full_prompt, llm_model_name='gpt-4o-mini'):
 
     # 替换成你的 OpenAI API 密钥  
-    api_key = 'sk-0qwyW6kPmaFjFBII2529Fa7e5cC54236A37987D14bE0A0F5'  
+    api_key = ' '  
 
     # 设置请求头  
     headers = {  
@@ -145,8 +145,7 @@ def query_gpt(full_prompt, llm_model_name='gpt-4o-mini'):
 def query_deepseek(full_prompt, llm_model_name='deepseek-chat'):
 
     # 替换成你的 OpenAI API 密钥  
-    # api_key = 'sk-FastAPI1mNDid0j1xzrXT8YBI9l1qmO0dJrmT3nd9re4BRlJ'  
-    api_key = "sk-7045f85e6dd94330b2a4cf5e64c63bdd"
+    api_key = ' ' 
 
     # 设置请求头  
     headers = {  
