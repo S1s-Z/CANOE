@@ -16,7 +16,7 @@ import time
 def query_claude(full_prompt, llm_model_name='claude-3-7-sonnet-20250219'):
 
     # 替换成你的 OpenAI API 密钥  
-    api_key = 'sk-proj-NVa8Rr8cBTaA2lETfnoRmSQiAHuQu9XYf4yTkGL3OcKNVtWd'  
+    api_key = ''  
 
     # 设置请求头  
     headers = {  
